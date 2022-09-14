@@ -32,9 +32,7 @@ else
 fi
 
 mkdir -p ~/.local/share/nautilus-python/extensions
-rm -f ~/.local/share/nautilus-python/extensions/alacritty-nautilus.py
-
-wget --show-progress -q -O ~/.local/share/nautilus-python/extensions/kitty-nautilus.py https://raw.githubusercontent.com/Dragnansia/Kitty-Nautilus/master/kitty-nautilus.py
+curl --progress-bar "https://raw.githubusercontent.com/wolflint/nautilus-extension-kitty/main/kitty-nautilus.py" -o ~/.local/share/nautilus-python/extensions/kitty-nautilus.py
 
 nautilus -q
-echo "Installation finish"
+echo "Installation finished"
