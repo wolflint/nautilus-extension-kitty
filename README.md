@@ -4,7 +4,7 @@ Kitty-Nautilus is a extension for nautilus to open kitty on current directory li
 # Installation
 
 ```sh
-wget -qO- https://raw.githubusercontent.com/Dragnansia/Kitty-Nautilus/main/install.sh | bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/wolflint/nautilus-extension-kitty/main/install.sh)"
 ```
 
 # Remove
